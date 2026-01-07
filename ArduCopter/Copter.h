@@ -221,6 +221,7 @@ public:
     friend class ModeSmartRTL;
     friend class ModeSport;
     friend class ModeStabilize;
+    friend class ModeMyfirst;
     friend class ModeStabilize_Heli;
     friend class ModeSystemId;
     friend class ModeThrow;
@@ -1071,6 +1072,9 @@ private:
     ModeStabilize_Heli mode_stabilize;
 #else
     ModeStabilize mode_stabilize;
+#endif
+#if MODE_MYFIRST_ENABLED
+    ModeMyfirst mode_myfirst;
 #endif
 #if MODE_SPORT_ENABLED
     ModeSport mode_sport;

@@ -144,7 +144,7 @@ segv_*out
 /Rover/repl/
 /AntennaTracker/scripts/
 /AntennaTracker/repl/
-/ArduCopter/scripts/
+# /ArduCopter/scripts/
 /ArduCopter/repl/
 /ArduPlane/scripts/
 /ArduPlane/repl/
