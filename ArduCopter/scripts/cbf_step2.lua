@@ -98,7 +98,7 @@ local CBF2_VMAX = bind_add_param("VMAX", 8, 3.0)
     // @Values: 0:Disabled,1:Enabled
     // @User: Standard
 --]]
-local CBF2_CBF_ENABLE = bind_add_param("CBF_ENABLE", 9, 0)
+local CBF2_CBF_ENABLE = bind_add_param("CBF_ENABLE", 9, 1)
 
 local GUIDED_MODE = 4
 local UPDATE_MS = 10
